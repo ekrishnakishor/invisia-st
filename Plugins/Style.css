@@ -7,6 +7,7 @@
 :root{
     --bg: #2A3026;
     --titan: #474747;
+    --bungee: 'Bungee Spice', cursive;
 }
 
 /* Main */
@@ -105,6 +106,52 @@ section .grid {
     margin-bottom: 20px;
 }
 
+section .grid img:hover ~ .overlay{
+    display: block;
+}
+
 section .grid img {
     width: 22%;
+}
+
+/* Overlay */
+
+section .overlay{
+    background-color: #919191;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+    border-radius: 12px;
+    width: 50%;
+    top: 80vw;
+    left: 25vw;
+}
+
+section .overlay .left{
+    display: flex;
+    /* align-items: center; */
+    gap: 60px;
+    flex-direction: column;
+}
+
+section .overlay .left .no {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+section .overlay .left p{
+    font-family: var(--bungee);
+}
+
+section .overlay .left img {
+    width: 35%;
+}
+
+section .overlay .left img.hoverr{
+    width: 80%;
+}
+
+section .overlay .right img {
+    width: 80%;
 }
