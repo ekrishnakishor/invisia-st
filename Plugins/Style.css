@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --bg: #2A3026;
+    --titan: #474747;
+}
+
+/* Main */
+
+main {
+    position: relative;
+}
+
+main img{
+    width: 100%;
+}
+
+main .heading {
+    position: absolute;
+    color: var(--titan);
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 25%;
+}
+
+main .heading select {
+    background: transparent;
+    border: none;
+}
+
+main .heading img {
+    width: 20%;
+}
+
+main .search {
+    position: absolute;
+    left: 10vw;
+    top: 30vw;
+}
+
+main .search .field {
+    display: flex;
+    align-items: center;
+}
+
+main .search .field input {
+    background-color: var(--bg);
+    padding: 10px 40px;
+    border-radius: 12px;
+    color: white;
+}
+
+main .search .field img.ve-1 {
+    position: absolute;
+    width: 6%;
+    top: 13px;
+    left: 10px;
+}
+
+main .search .field img.ve-2 {
+    left: 87%;
+    top: 15px;
+    position: absolute;
+    width: 6%;
+}
+
+main .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 18vw;
+    left: 10vw;
+}
+
+main .logo img {
+    width: 50%;
+}
+
+/* section */
+
+section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+section img.sec-heading{
+    width: 25%;
+    margin-top: 10px;
+}
+
+section .grid {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+section .grid img {
+    width: 22%;
+}
