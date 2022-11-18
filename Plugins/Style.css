@@ -16,6 +16,10 @@ main {
     position: relative;
 }
 
+.hidden {
+    display: none;
+}
+
 main img{
     width: 100%;
 }
@@ -106,17 +110,13 @@ section .grid {
     margin-bottom: 20px;
 }
 
-section .grid img:hover ~ .overlay{
-    display: block;
-}
-
 section .grid img {
     width: 22%;
 }
 
 /* Overlay */
 
-section .overlay{
+.overlay{
     background-color: #919191;
     padding: 20px;
     display: flex;
